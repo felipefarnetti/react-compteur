@@ -1,5 +1,5 @@
 const reset = (props) => {
-  const remise = "0";
+  const remise = [setCounter];
   return (
     <button
       onClick={() => {

@@ -26,7 +26,7 @@ function App() {
         </div>
 
         <div className="bas">
-          <Reset counter={counter} setCounter={setReset} />
+          <Reset counter={counter} />
         </div>
       </section>
     </div>

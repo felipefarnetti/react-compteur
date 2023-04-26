@@ -5,7 +5,7 @@ const Decrement = (props) => {
         props.setCounter(props.counter - 1);
       }}
     >
-      +
+      -
     </button>
   );
 };

@@ -3,7 +3,6 @@ import "./App.css";
 import Header from "./Components/Header";
 import Increment from "./Components/Increment";
 import Decrement from "./Components/Decrement";
-import Reset from "./Components/Reset";
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -26,7 +25,14 @@ function App() {
         </div>
 
         <div className="bas">
-          <Reset counter={counter} />
+          <button
+            className="reset"
+            onClick={() => {
+              setCounter(0);
+            }}
+          >
+            RESET
+          </button>
         </div>
       </section>
     </div>
